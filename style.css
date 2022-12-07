@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: rgba(118, 177, 214,0.3);
+    font-family: 'Nunito', sans-serif;
+  
+
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+  
+}
+#qr_Box{
+
+    width: 270px;
+    height:430px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 1px 1px rgba(f,f,f,0.4);
+   
+}
+
+#qr_Box img{
+
+    width:250px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 10px 10px;
+   
+}
+
+.text{
+    text-align: center;
+    margin: 10px 10px;
+}
+
+#text1{
+    
+    font-size: 20px;
+    font-weight: 800;
+
+}
+#text2{
+    color: rgba(0,0,0,0.4);
+}
